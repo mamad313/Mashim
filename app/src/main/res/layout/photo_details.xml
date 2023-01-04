@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:paddingBottom="16dp"
+    android:weightSum="300"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.PhotoDetailsActivity"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:weightSum="300"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        app:cardCornerRadius="8dp"
+        app:contentPadding="8dp"
+        app:cardBackgroundColor="#673AB7">
+
+        <LinearLayout
+            android:weightSum="300"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="left">
+
+            <TextView
+                android:id="@+id/photo_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_margin="8dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="TextView"/>
+
+            <ImageView
+                android:id="@+id/photo_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/placeholder" />
+
+            <TextView
+                android:id="@+id/photo_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_margin="8dp"
+                android:text="TextView"/>
+
+            <TextView
+                android:id="@+id/photo_tags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="TextView"
+                android:textSize="12sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="15dp"
+                android:id="@+id/buyIt"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="@string/AddToBasket"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

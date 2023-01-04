@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "583827902263",
+    "project_id": "mahsimshop",
+    "storage_bucket": "mahsimshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583827902263:android:ef0b32fbc1f11ba22814b2",
+        "android_client_info": {
+          "package_name": "com.example.back4appshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583827902263-p9pvkk02lrh271l8hnv9sbu8lp4fees5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT2GcMvpUemYVzUWUkjODYpxyreJv32h0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583827902263-p9pvkk02lrh271l8hnv9sbu8lp4fees5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

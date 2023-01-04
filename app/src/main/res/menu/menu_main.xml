@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/car"
+        android:icon="@drawable/car"
+        android:title="Send"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_basket"
+        android:icon="@drawable/outline_shopping_cart_white_24dp"
+        android:title="TODO"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_button"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:orderInCategory="100"
+        android:title="@string/action_button"
+        app:showAsAction="always" />
+
+</menu>
